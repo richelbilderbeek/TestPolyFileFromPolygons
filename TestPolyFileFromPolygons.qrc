@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/ToolTestPolyFileFromPolygons">
+        <file>TestPolyFileFromPolygonsIcon.png</file>
+        <file>TestPolyFileFromPolygonsWelcome.png</file>
+    </qresource>
+</RCC>

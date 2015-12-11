@@ -35,7 +35,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #include "container.h"
 #include "fileio.h"
 #include "geometry.h"
-#include "richelbilderbeekprogram.h"
 #include "trace.h"
 #include "testtimer.h"
 #include "plane.h"
@@ -145,7 +144,7 @@ ribi::About ribi::TestPolyFileFromPolygonsMenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "TestPolyFileFromPolygons",
     "tests the PolyFileFromPolygons class",
-    "the 12th of June 2014",
+    "December 11th of 2015",
     "2014-2015",
     "http://www.richelbilderbeek.nl/ToolTestPolyFileFromPolygons.htm",
     GetVersion(),
@@ -177,19 +176,9 @@ ribi::Help ribi::TestPolyFileFromPolygonsMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::TestPolyFileFromPolygonsMenuDialog::GetProgram() const noexcept
-{
-  boost::shared_ptr<const ribi::Program> p {
-    new ribi::ProgramTestPolyFileFromPolygons
-  };
-  assert(p);
-  return p;
-}
-
-
 std::string ribi::TestPolyFileFromPolygonsMenuDialog::GetVersion() const noexcept
 {
-  return "1.2";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::TestPolyFileFromPolygonsMenuDialog::GetVersionHistory() const noexcept
@@ -197,7 +186,8 @@ std::vector<std::string> ribi::TestPolyFileFromPolygonsMenuDialog::GetVersionHis
   return {
     "2014-06-02: version 1.0: initial version, supported polygons only",
     "2014-06-12: version 1.1: added support for linestring",
-    "2014-08-08: version 1.2: added silent flag to console version"
+    "2014-08-08: version 1.2: added silent flag to console version",
+    "2015-12-11: version 2.0: moved to own GitHub",
   };
 }
 

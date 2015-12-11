@@ -23,8 +23,8 @@
    <string>TestPolyFileFromPolygons</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestPolyFileFromPolygons.qrc">
-    <normaloff>:/ToolTestPolyFileFromPolygons/ToolTestPolyFileFromPolygonsIcon.png</normaloff>:/ToolTestPolyFileFromPolygons/ToolTestPolyFileFromPolygonsIcon.png</iconset>
+   <iconset resource="TestPolyFileFromPolygons.qrc">
+    <normaloff>:/ToolTestPolyFileFromPolygons/TestPolyFileFromPolygonsIcon.png</normaloff>:/ToolTestPolyFileFromPolygons/TestPolyFileFromPolygonsIcon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog { 
@@ -117,7 +117,7 @@ LINESTRING(-5 -5,-5 15,15 15,15 -5,-5 -5)</string>
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="ToolTestPolyFileFromPolygons.qrc"/>
+  <include location="TestPolyFileFromPolygons.qrc"/>
  </resources>
  <connections/>
 </ui>

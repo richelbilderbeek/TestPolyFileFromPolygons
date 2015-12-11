@@ -19,8 +19,8 @@
    <string>TestPolyFileFromPolygons</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestPolyFileFromPolygons.qrc">
-    <normaloff>:/ToolTestPolyFileFromPolygons/ToolTestPolyFileFromPolygonsIcon.png</normaloff>:/ToolTestPolyFileFromPolygons/ToolTestPolyFileFromPolygonsIcon.png</iconset>
+   <iconset resource="TestPolyFileFromPolygons.qrc">
+    <normaloff>:/ToolTestPolyFileFromPolygons/TestPolyFileFromPolygonsIcon.png</normaloff>:/ToolTestPolyFileFromPolygons/TestPolyFileFromPolygonsIcon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog { 
@@ -67,7 +67,7 @@ QPushButton { font: 48px &quot;Courier New&quot;, courier, monospace }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolTestPolyFileFromPolygons.qrc">:/ToolTestPolyFileFromPolygons/ToolTestPolyFileFromPolygonsWelcome.png</pixmap>
+      <pixmap resource="TestPolyFileFromPolygons.qrc">:/ToolTestPolyFileFromPolygons/TestPolyFileFromPolygonsWelcome.png</pixmap>
      </property>
     </widget>
    </item>
@@ -79,7 +79,7 @@ QPushButton { font: 48px &quot;Courier New&quot;, courier, monospace }</string>
   <tabstop>button_quit</tabstop>
  </tabstops>
  <resources>
-  <include location="ToolTestPolyFileFromPolygons.qrc"/>
+  <include location="TestPolyFileFromPolygons.qrc"/>
  </resources>
  <connections/>
 </ui>
